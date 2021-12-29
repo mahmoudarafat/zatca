@@ -23,6 +23,6 @@ class ZatcaServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('MahmoudArafat\ZATCA\ZatcaController');
+        $this->app->make('mahmoudarafat\zatca\ZatcaController');
     }
 }
