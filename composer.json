@@ -1,0 +1,22 @@
+{
+    "name": "mahmoudarafat/zatca",
+    "description": "zatca, the VAT thing for KSA, first step, encrypted QRcode that matches with ZATCA.",
+    "type": "package",
+    "keywords": ["laravel","zatca","vat ksa"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "mahmoudarafat\\Zatca\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahmoud Arafat",
+            "email": "mahmoudarafat33@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 7.1"
+    }
+}
